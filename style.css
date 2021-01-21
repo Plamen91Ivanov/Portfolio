@@ -94,6 +94,10 @@ html{
     opacity: 1;
     pointer-events: auto;
 }
+.name-logo{
+    font-size: 60px;
+    font-weight: 800;
+}
 .home{
     display: flex;
     background: url("img/3.png") no-repeat center; 
