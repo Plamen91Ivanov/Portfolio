@@ -7,7 +7,7 @@ function myFunction() {
     }
 }
  
-(function () {
+function add () {
   if (
     !"mediaDevices" in navigator ||
     !"getUserMedia" in navigator.mediaDevices
@@ -103,5 +103,5 @@ function myFunction() {
   }
 
   initializeCamera();
-})();
+}
  
