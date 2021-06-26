@@ -629,3 +629,7 @@ footer span a:hover{
         font-size: 27px; 
     }
 }
+
+.test{
+    display: none;
+}
