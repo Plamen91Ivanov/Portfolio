@@ -6,37 +6,7 @@ function myFunction() {
       x.style.display = "none";
     }
 }
-
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
  
-@Plamen91Ivanov 
-doug2k1
-/
-javascript-camera
-4
-2914
-Code
-Issues
-2
-Pull requests
-Actions
-Projects
-Security
-Insights
-javascript-camera/script.js /
-@doug2k1
-doug2k1 Update camera switch
-Latest commit d8c269d on May 30, 2020
- History
- 1 contributor
-97 lines (84 sloc)  2.38 KB
-  
 (function () {
   if (
     !"mediaDevices" in navigator ||
@@ -134,16 +104,4 @@ Latest commit d8c269d on May 30, 2020
 
   initializeCamera();
 })();
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+ 
