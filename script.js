@@ -1,9 +1,104 @@
-function myFunction() {
-    var x = document.getElementById("demo");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+function toggleProjects() {
+    var divProjects = document.getElementById("projects");
+    var divProject = document.getElementById("algorithmVisualizer");
+    var eShop = document.getElementById("eShop");
+    var doctorInformation = document.getElementById("doctorInformation");
+    var forestBath = document.getElementById("forestBath");
+    var background = document.getElementById("project");
+
+    if (divProjects.style.display === "") {
+      divProjects.style.display = "none";
+    }
+    if (divProjects.style.display === "none") {
+      divProjects.style.display = "inline-block";
     } else {
-      x.style.display = "none";
+      divProjects.style.display = "none";
+      divProject.style.display = "none";
+      eShop.style.display = "none";
+      doctorInformation.style.display = "none";
+      forestBath.style.display = "none";
+      background.style.display = "none";
     }
 }
+function toggleBackground() {
+  var background = document.getElementById("project");
+  background.style.display = "block"
+}
+function toggleAlgorithmVisualizer() {
+  toggleBackground();
+  var divProject = document.getElementById("algorithmVisualizer");
+  var eShop = document.getElementById("eShop");
+  var doctorInformation = document.getElementById("doctorInformation");
+  var forestBath = document.getElementById("forestBath");
+  eShop.style.display = "none";
+  doctorInformation.style.display = "none";
+  forestBath.style.display = "none";
+
+    if (divProject.style.display === "") {
+      divProject.style.display = "none";
+    }
+    if (divProject.style.display === "none") {
+      divProject.style.display = "block";
+    } else {
+      divProject.style.display = "none";
+    }
+}
+function toggleEShop() {
+  toggleBackground();
+  var divProject = document.getElementById("eShop");
+  var algorithmVisualizer = document.getElementById("algorithmVisualizer");
+  var doctorInformation = document.getElementById("doctorInformation");
+  var forestBath = document.getElementById("forestBath");
+  algorithmVisualizer.style.display = "none";
+  doctorInformation.style.display = "none";
+  forestBath.style.display = "none";
+
+    if (divProject.style.display === "") {
+      divProject.style.display = "none";
+    }
+    if (divProject.style.display === "none") {
+      divProject.style.display = "block";
+    } else {
+      divProject.style.display = "none";
+    }
+}
+function toggleDoctorInformation() {
+  toggleBackground();
+  var divProject = document.getElementById("doctorInformation");
+  var algorithmVisualizer = document.getElementById("algorithmVisualizer");
+  var eShop = document.getElementById("eShop");
+  var forestBath = document.getElementById("forestBath");
+  algorithmVisualizer.style.display = "none";
+  eShop.style.display = "none";
+  forestBath.style.display = "none";
+
+    if (divProject.style.display === "") {
+      divProject.style.display = "none";
+    }
+    if (divProject.style.display === "none") {
+      divProject.style.display = "block";
+    } else {
+      divProject.style.display = "none";
+    }
+}
+function toggleForestBath() {
+  toggleBackground();
+  var divProject = document.getElementById("forestBath");
+  var algorithmVisualizer = document.getElementById("algorithmVisualizer");
+  var eShop = document.getElementById("eShop");
+  var doctorInformation = document.getElementById("doctorInformation");
+  algorithmVisualizer.style.display = "none";
+  eShop.style.display = "none";
+  doctorInformation.style.display = "none";
+
+    if (divProject.style.display === "") {
+      divProject.style.display = "none";
+    }
+    if (divProject.style.display === "none") {
+      divProject.style.display = "block";
+    } else {
+      divProject.style.display = "none";
+    }
+}
+
   

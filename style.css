@@ -64,7 +64,6 @@ html, body{
     margin-left: 250px;
 }
 .home{
-    display: flex;
     background: url("img/3.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -112,9 +111,6 @@ html, body{
     background: none;
 }
 
-
-
-/* all simiral styling code */
 section{
     padding: 100px 0;
 }
@@ -630,6 +626,65 @@ footer span a:hover{
     }
 }
 
-.test{
+.divinline{
+    display:inline-block;
+}
+.leftdiv{
+    float: left;
+}
+.rightdiv{
+    float: right;
+}
+
+.projects{
+    display: none; 
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 62%;
+    background: rgba(1, 1, 1, .2)
+}
+
+.project{
+    display:none;
+    border: 3px solid rgb(43, 39, 39);
+    border-radius: 10px; 
+    background: rgba(1, 1, 1, .5);
+}
+.card{
+    display:flex;
+    align-items: center;
+    background: rgba(1, 1, 1, .5);
+    width: 700px;
+    height: 700px;
+}
+.card-description{
+    align-self:flex-start;
+    flex-grow: 10;
+}
+.card-functionality{
+    align-self:flex-start;
+    flex-grow: 1;
+}
+.card-technology{
+    align-self:flex-start;
+    flex-grow: 1;
+}
+
+
+.algorithmVisualizer{
     display: none;
 }
+
+.eShop{
+    display: none;
+}
+
+.forestBath{
+    display: none;
+}
+
+.doctorInformation{
+    display: none;
+}
+
