@@ -659,6 +659,8 @@ footer span a:hover{
     height: 700px;
 }
 .card-description{
+    display: flex;
+    align-items: center;
     align-self:flex-start;
     flex-grow: 10;
 }
@@ -667,10 +669,24 @@ footer span a:hover{
     flex-grow: 1;
 }
 .card-technology{
+    display: flex;
+    align-items: center;
     align-self:flex-start;
     flex-grow: 1;
 }
 
+.description-text{
+    border: 2px solid rgb(43, 40, 40);
+    margin: 10px;
+    padding: 15px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.programming-icons{
+    height:70%;
+    padding: 10px;
+}
 
 .algorithmVisualizer{
     display: none;
