@@ -651,6 +651,10 @@ footer span a:hover{
     border-radius: 10px; 
     background: rgba(1, 1, 1, .5);
 }
+
+.global-card{
+    display: flex;
+}
 .card{
     display:flex;
     align-items: center;
@@ -683,9 +687,14 @@ footer span a:hover{
     font-size: larger;
 }
 
-.programming-icons{
-    height:70%;
+.programming-icon{
+    height:70px;
     padding: 10px;
+}
+.programming-icons{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: crimson;
 }
 
 .algorithmVisualizer{
