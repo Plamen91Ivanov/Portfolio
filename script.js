@@ -1,6 +1,6 @@
 function toggleProjects() {
     var divProjects = document.getElementById("projects");
-    var divProject = document.getElementById("algorithmVisualizer");
+    var algorithmVisualizer = document.getElementById("algorithmVisualizer");
     var eShop = document.getElementById("eShop");
     var doctorInformation = document.getElementById("doctorInformation");
     var forestBath = document.getElementById("forestBath");
@@ -13,7 +13,7 @@ function toggleProjects() {
       divProjects.style.display = "inline-block";
     } else {
       divProjects.style.display = "none";
-      divProject.style.display = "none";
+      algorithmVisualizer.style.display = "none";
       eShop.style.display = "none";
       doctorInformation.style.display = "none";
       forestBath.style.display = "none";
@@ -30,6 +30,9 @@ function toggleAlgorithmVisualizer() {
   var eShop = document.getElementById("eShop");
   var doctorInformation = document.getElementById("doctorInformation");
   var forestBath = document.getElementById("forestBath");
+  var about = document.getElementById("about");
+
+  about.style.display = "none";
   eShop.style.display = "none";
   doctorInformation.style.display = "none";
   forestBath.style.display = "none";
@@ -49,6 +52,9 @@ function toggleEShop() {
   var algorithmVisualizer = document.getElementById("algorithmVisualizer");
   var doctorInformation = document.getElementById("doctorInformation");
   var forestBath = document.getElementById("forestBath");
+  var about = document.getElementById("about");
+
+  about.style.display = "none";
   algorithmVisualizer.style.display = "none";
   doctorInformation.style.display = "none";
   forestBath.style.display = "none";
@@ -68,6 +74,9 @@ function toggleDoctorInformation() {
   var algorithmVisualizer = document.getElementById("algorithmVisualizer");
   var eShop = document.getElementById("eShop");
   var forestBath = document.getElementById("forestBath");
+  var about = document.getElementById("about");
+
+  about.style.display = "none";
   algorithmVisualizer.style.display = "none";
   eShop.style.display = "none";
   forestBath.style.display = "none";
@@ -87,6 +96,9 @@ function toggleForestBath() {
   var algorithmVisualizer = document.getElementById("algorithmVisualizer");
   var eShop = document.getElementById("eShop");
   var doctorInformation = document.getElementById("doctorInformation");
+  var about = document.getElementById("about");
+
+  about.style.display = "none";
   algorithmVisualizer.style.display = "none";
   eShop.style.display = "none";
   doctorInformation.style.display = "none";
@@ -99,6 +111,25 @@ function toggleForestBath() {
     } else {
       divProject.style.display = "none";
     }
+}
+function toggleAbout(){
+  var about = document.getElementById("about");
+  var algorithmVisualizer = document.getElementById("algorithmVisualizer");
+  var eShop = document.getElementById("eShop");
+  var doctorInformation = document.getElementById("doctorInformation");
+  var forestBath = document.getElementById("forestBath");
+
+  forestBath.style.display = "none";
+  algorithmVisualizer.style.display = "none";
+  eShop.style.display = "none";
+  doctorInformation.style.display = "none";
+
+  if (about.style.display === 'none') {
+    about.style.display = 'block';
+  }
+  else {
+    about.style.display = 'none';
+  }
 }
 
   
